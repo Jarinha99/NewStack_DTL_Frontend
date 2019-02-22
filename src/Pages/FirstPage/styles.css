@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+display: flex;
+justify-content: center;
+}
+
+.btnAdmin{
+    width: 130px;
+    height: 30px;
+    background: palevioletred;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+}
+
+.btnAdmin:hover{
+    background: black;
+    color: palevioletred;
+}

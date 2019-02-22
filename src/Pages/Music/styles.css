@@ -1,0 +1,44 @@
+.InfoMusica{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.InfoMusica article{
+    background: #fff;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.InfoMusica article h1{
+    display:flex;
+    justify-content: center;
+}
+
+.InfoMusica article p {
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.InfoMusica .actions{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: palevioletred;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}

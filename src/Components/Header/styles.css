@@ -1,0 +1,18 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: 80px;
+}
+
+.Header h1{
+    color:palevioletred;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 8px;
+}
+
+.Header a{
+    text-decoration: none;
+}
+

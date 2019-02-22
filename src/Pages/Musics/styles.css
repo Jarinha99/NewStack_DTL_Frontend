@@ -1,0 +1,98 @@
+.ListaMusicas{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.ListaMusicas article{
+    background: #fff;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ListaMusicas article strong{
+    display:flex;
+    justify-content: center;
+}
+
+.ListaMusicas article img{
+    display:flex;
+    justify-content: center;
+}
+
+.ListaMusicas article p {
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.ListaMusicas article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid palevioletred;
+    background: white;
+    margin-top: 10px;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.ListaMusicas article a:hover {
+    background:palevioletred;
+    color: #fff;
+}
+
+.ListaMusicas .actions{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ListaMusicas .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: palevioletred;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ListaMusicas .actions button:hover{
+    opacity: 0.7;
+}
+
+.ListaMusicas .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.ListaMusicas .actions button[disabled]:hover{
+    opacity: 0.5;
+}
+
+.btnVoltar{
+    margin-bottom: 20px;
+    width: 80px;
+    height: 36px;
+}
+.btnPesquisar{
+    margin-left: 10px;
+}
+.txtPesquisar{
+    width: 540px;
+    margin-bottom: 20px;
+    padding: 6px;
+    margin-left: 20px;
+}

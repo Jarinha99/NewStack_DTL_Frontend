@@ -1,0 +1,37 @@
+.AddMusic{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.AddMusic article{
+    background: #fff;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.AddMusic article h1{
+    display: flex;
+    justify-content: center;
+}
+
+.AddMusic article h2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.AddMusic article p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.AddMusic article button{
+    display:flex;
+    justify-content: center;
+}
+
